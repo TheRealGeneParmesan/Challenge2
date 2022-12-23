@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.hero {
+    height: 43vh;
+    width: 100%;
+    background-image: url("https://previews.123rf.com/images/elarina/elarina1303/elarina130300102/18551542-rustic-wooden-fence-purification-of-blue-paint-bright-background.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #36454f;
+    font-size: 22px;
+}
+
+.logo {
+    position: relative;
+    color: #36454f;
+    font-size: 50px;
+    right: 150px;
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav u1 li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: underline;
+
+}
+
+nav u1 li a {
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav u1 li a:hover {
+    color: black;
+    transition: .4s;
+}
+
+
+h2 {
+    position: relative;
+    color: #36454f;
+    font-size: 50px;
+    left: 2100px;
+    top: 180px;
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    border: 20px black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative;
+    top: 400px;
+}
+
+
+.about-me {
+    display: flex;
+}
+
+h3 {
+    height: 160px;
+    width: 190px;
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #36454f;
+    font-size: 60px;
+    position: relative;
+    bottom: 20px;
+    order: 0;
+    border-right: 5px solid darkslategrey;
+}
+
+p {
+    width: 90%;
+    height: 200px;
+    font-size: 30px;
+    font-family: Brush Script Mt;
+    color: black;
+    /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: 550px;
+    display: inline-block;
+    order: 1;
+    vertical-align: top;
+    position: relative;
+    left: 1%;
+    bottom: 2%;
+    line-height: 40px;
+}
+
+.work-container {
+    border: 20px black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative;
+    top: 400px;
+}
+
+h4 {
+    height: 160px;
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #36454f;
+    font-size: 60px;
+    position: relative;
+    bottom: 20px;
+    top: 150px;
+    width: 180px;
+    border-right: 5px solid darkslategrey;
+}
+
+.float-right{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 70vh;
+    width: 150vh;
+    border-right:5px solid darkslategrey;
+    border-left:5px solid darkslategrey;
+    border-top:5px solid darkslategrey;
+    border-bottom: 5px solid darkslategrey;    
+
+}
+
+h5 {
+    font-size: 60px;
+    position: relative;
+    right: 500px;
+
+}
+
+
+.pandas {
+    display: block;
+    float: left;
+    position: relative;
+    top: 40px;
+    left: 290px;
+    height: 40vh;
+    width: 50vh;
+    border-right:5px solid darkslategrey;
+    border-left:5px solid darkslategrey;
+    border-top:5px solid darkslategrey;
+    border-bottom: 5px solid darkslategrey;
+}
+
+h6{
+    font-size: 60px;
+    position: relative;
+    left: 290px;
+    bottom: 420px;
+}
+
+.foxes {
+    display: block;
+    float: right;
+    position: relative;
+    top: 40px;
+    height: 40vh;
+    width: 40vh;
+    left: 380px;
+    border-right:5px solid darkslategrey;
+    border-left:5px solid darkslategrey;
+    border-top:5px solid darkslategrey;
+    border-bottom: 5px solid darkslategrey;
+}
+
+h7{
+    font-size: 60px;
+    position: relative;
+    top: 40px;
+    right: 100px;
+}
+
+.penguins {
+    display: block;
+    position: relative;
+    height: 40vh;
+    width: 46vh;
+    left: 303px;
+    top: 40px;
+    
+}
+
+h8{
+    font-size: 60px;
+    position: relative;
+    top:40px;
+    right: 270px;
+}
+
+.polarbears{
+    display: block;
+    float: left;
+    position: relative;
+    top: 450px;
+    left: 290px;
+    height: 40vh;
+    width: 50vh;
+    border-right:5px solid darkslategrey;
+    border-left:5px solid darkslategrey;
+    border-top:5px solid darkslategrey;
+    border-bottom: 5px solid darkslategrey;
+
+}
+
+h9{
+    font-size: 60px;
+    position: relative;
+    top: 450px;
+    right: 100px;
+}
+
+.cats{
+    display: block;
+    position: relative;
+    top: 380px;
+    height: 40vh;
+    width: 40vh;
+    left: 380px;
+    border-right:5px solid darkslategrey;
+    border-left:5px solid darkslategrey;
+    border-top:5px solid darkslategrey;
+    border-bottom: 5px solid darkslategrey;
+
+}
+
+h10{
+    font-size: 60px;
+    position: relative;
+    bottom: 100px;
+    left: 1100px;
+}
+
+.gorillas {
+    display: block;
+    position: relative;
+    height: 40vh;
+    width: 46vh;
+    left: 1580px;
+    bottom: 190px;
+
+}
+
+h11{
+    font-size: 60px;
+    position: relative; 
+    left: 1580px;
+    bottom: 680px;
+}
+
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: arial;
+    top:2300px;
+    justify-content: space-between;
+}
+
+h12{
+    height: 160px;
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #36454f;
+    font-size: 60px;
+    position: relative;
+    width: 180px;
+    border-right: 5px solid darkslategrey;
+    right: 600px;
+}
+
+.footerLinks {
+   text-align: center;
+}
+.footerLinks ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px ;
+    text-decoration: underline;
+}
+
+.footerLinks a {
+	color: darkslategrey;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+.footerLinks a:hover {
+    color: black;
+    transition: .4s;
+}
